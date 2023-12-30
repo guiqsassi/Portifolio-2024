@@ -1,0 +1,14 @@
+#root, html,body, .App{
+  width: 100%;
+  height: auto;
+  background-color: #FFFAFA;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  transition: background 1s;
+
+}
+.App-darkMode{
+  background-color: #1B1D25;
+  transition: background 1s;
+}

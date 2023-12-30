@@ -1,0 +1,64 @@
+import "./Home.css"
+import picture from "../../../assets/Picture.png"
+import github from "../../../assets/github.png"
+import nodejs from "../../../assets/nodejs.png"
+import linkeding from "../../../assets/linkeding.png"
+import javascript from "../../../assets/javascript.png"
+import spring from "../../../assets/SpringBoot.png"
+import css from "../../../assets/css.png"
+import html from "../../../assets/html.png"
+import git from "../../../assets/git.png"
+import React from "../../../assets/react.png"
+import mySql from "../../../assets/mysql.png"
+import mongo from "../../../assets/mongo.png"
+import docker from "../../../assets/docker.png"
+import figma from "../../../assets/figma.png"
+import { useSelector } from "react-redux"
+
+import Tag from "../../Tag/Tags"
+const Home = () => {
+    const {toggle} = useSelector((state)=>state.darkModeReducer)
+    return ( 
+        <section id="home" className="home">
+        <div className="profile">
+        <img src={picture} alt="" />
+        <div className={`personalInfo ${toggle? "darkMode-Container":null}`}>
+            <h1>Guilherme Q. Sassi</h1>
+            <h2>Desenvolvedor Fullstack</h2>
+            <div className="socialMedia">
+                <a href="">
+                    <img src={linkeding} alt="" />
+                </a>
+                <a href="">
+                    <img src={github} alt="" />
+                </a>
+            </div>
+        </div>
+        </div>
+        <div className={`about ${toggle? "darkMode-Container":null}`}>
+            <h1>Sobre:</h1>
+            <p>Olá, meu nome é Guilherme e eu sou um desenvolvedor fullstack!! <br /> Eu comecei a estudar programação à aproximadamente 2 anos, quando me apaixonei imensamente pela área da tecnologia. Estou sempre em busca de mais experiências e aprendizados como programador. <br />
+Atualmente estou trabalhando em um projeto na comunidade Bichinhos da TI chamado “Aprender ensinando” e estou atuando como FrontEnd Developer voluntário.</p>
+            <h1>Tecnologias:</h1>
+            <div className="tags">
+                <Tag img={spring} text={"SpringBoot"} color="#77BC1F"></Tag>
+                <Tag img={nodejs} text={"Node.Js"}></Tag>
+                <Tag img={javascript} text={"Javascript"} color="rgba(0, 0, 0, 0.54)"></Tag>
+                <Tag img={html} text={"Html"} color="rgba(241, 101, 41, 0.69)"></Tag>
+                <Tag img={css} text={"Css"} color="rgba(21, 114, 182, 0.79)"></Tag>
+                <Tag img={React} text={"React"} color="#23C2EE"></Tag>
+                <Tag img={git} text={"Git"} color="rgba(241, 101, 41, 0.69)"></Tag>
+                <Tag img={mySql} text={"mySql"} color="#1486DA"></Tag>
+                <Tag img={mongo} text={"MongoDb"} color="#57AE47"></Tag>
+                <Tag img={docker} text={"Docker"} color="#00ACD3"></Tag>
+                <Tag img={figma} text={"Figma"} color="rgba(0, 0, 0, 0.54)"></Tag>
+
+            
+            
+            </div>
+        </div>
+        </section>
+     );
+}
+ 
+export default Home;
