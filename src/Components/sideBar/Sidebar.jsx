@@ -1,5 +1,5 @@
 import "./Sidebar.css"
-import moon from "../../assets/moon.png"
+import moon from "../../assets/Moon.png"
 import link from "../../assets/Link.png"
 import laptop from "../../assets/Laptop.png"
 import home from "../../assets/home.png"
