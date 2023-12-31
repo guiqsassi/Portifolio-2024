@@ -79,6 +79,7 @@ background: #FFF;
 @media (max-width: 600px) {
     .sidebar{
         width: 100%;
+        min-height: 44px;
         height: 7%;
         z-index: 5;
         display: flex;
@@ -101,9 +102,9 @@ background: #FFF;
     }
     
     .sidebarContainer > ul > li > a{
-        height:80%;
+        height:40px;
 
-        width: 50%;
+        width: 40px;
     }
     
 }
