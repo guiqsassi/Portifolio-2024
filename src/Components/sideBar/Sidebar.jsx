@@ -5,7 +5,7 @@ import laptop from "../../assets/Laptop.png"
 import home from "../../assets/Home.png"
 
 import sun from "../../assets/sun.png"
-import linkDark from "../../assets/LinkDarkMode.png"
+// import LinkDark from "../../assets/LinkDarkMode.png"
 import laptopDark from "../../assets/LaptopDarkMode.png"
 import homeDark from "../../assets/HouseDarkMode.png"
 import { useDispatch } from "react-redux"
@@ -45,7 +45,8 @@ const Sidebar = () => {
                     <li>
                         <a href="#a">
                         {toggle?
-                    <img src={linkDark} alt="" />
+                    // <img src={LinkDark} alt="" />
+                    null
                     :
                     <img src={link} alt="" />
 
