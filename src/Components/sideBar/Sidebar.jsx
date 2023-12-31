@@ -2,7 +2,7 @@ import "./Sidebar.css"
 import moon from "../../assets/Moon.png"
 import link from "../../assets/Link.png"
 import laptop from "../../assets/Laptop.png"
-import home from "../../assets/home.png"
+import home from "../../assets/Home.png"
 
 import sun from "../../assets/sun.png"
 import linkDark from "../../assets/LinkDarkMode.png"
