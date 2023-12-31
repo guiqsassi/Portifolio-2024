@@ -13,7 +13,7 @@ import mySql from "../../../assets/mysql.png"
 import mongo from "../../../assets/mongo.png"
 import docker from "../../../assets/docker.png"
 import figma from "../../../assets/figma.png"
-import whatsapp from "../../../assets/Whatsapp.png"
+import whatsapp from "../../../assets/WhatsApp.png"
 import { useSelector } from "react-redux"
 
 import Tag from "../../Tag/Tags"
