@@ -10,7 +10,7 @@
     flex-direction: column;
     z-index: 2;
     transition: background 1s, border 1s;
-
+    gap: 10px;
 }
 .darkMode-Container{
     background-color: #232531;
@@ -23,7 +23,6 @@
     height: 10%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
 }
 .user{
     display: flex;
@@ -98,7 +97,7 @@ line-height: normal;
 }
 .tags{
     width: 100%;
-    height: 8%;
+    height: auto;
     display: flex;
     align-items: center;
 }
@@ -110,9 +109,7 @@ line-height: normal;
     
 }
 .widgets{
-    margin-top: 10px;
     width: 100%;
-    height: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -230,21 +227,33 @@ line-height: normal;
     .ProjectContainer{
         width: 100%;
         height: auto;
-        padding: 0 0 20px 0;
+        padding: 10px 0 20px 0;
         border: 0px;
         border-radius: 0;
         align-items: center;
         gap: 10px;
+        min-height: 0;
+    }
+    .imagePrincipal >img{
+        border-radius: 0px;
+        object-fit:contain;
+        height: unset;
+    }
+    .imagePrincipal{
+        height: auto;
     }
     .ProjectHeader{
-        width: 95%;
+        width: 90%;
         
     }
     .widgets{
-        width: 95%;
+        width: 90%;
     }
     .copyWidget{
         display: none;
+    }
+    .webWidgets{
+        gap: 14px;
     }
     .tags{
         width: 95%;

@@ -280,21 +280,17 @@ transition: color 1s;
     }
 }
 @media (max-width: 400px) {
+
     .about{
-        padding: 20px 0 20px 0;
-        width: 99%;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0;
+        width: 86%;
     }
-    
     .about > h1, p{
         width: 95%;
     }
     .about>.tags{
         justify-content: space-between;
         align-items: center;
-        width: 70%;
+        width: 100%;
         
     }
     

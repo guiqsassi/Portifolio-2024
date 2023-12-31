@@ -41,7 +41,7 @@ const Home = () => {
         </div>
         <div className={`about ${toggle? "darkMode-Container":null}`}>
             <h1>Sobre:</h1>
-            <p>Olá, meu nome é Guilherme e eu sou um desenvolvedor fullstack!! <br /> Eu comecei a estudar programação à aproximadamente 2 anos, quando me apaixonei imensamente pela área da tecnologia. Estou sempre em busca de mais experiências e aprendizados como programador. <br />
+            <p>Olá, meu nome é Guilherme e eu sou um desenvolvedor fullstack!! <br /> Eu comecei a estudar programação há aproximadamente 2 anos, quando me apaixonei imensamente pela área da tecnologia. Estou sempre em busca de mais experiências e aprendizados como programador. <br />
 Atualmente estou trabalhando em um projeto na comunidade Bichinhos da TI chamado “Aprender ensinando” e estou atuando como FrontEnd Developer voluntário.</p>
             <h1>Tecnologias:</h1>
             <div className="tags">
