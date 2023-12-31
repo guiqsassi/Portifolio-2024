@@ -1,7 +1,7 @@
 import "./Contact.css"
 import Input from "../../Input/Input"
 import ButtonForms from "../../ButtonForms/ButtonForms"
-import planeGuy from "../../../assets/Contact.svg"
+import Contact from "../../../assets/Contact.svg"
 import { useState, useRef } from "react"
 import NotificationError from "../../Notification/NotificationError"
 import NotificationOkay from "../../Notification/NotificationOkay"
@@ -50,7 +50,7 @@ const Contact = () => {
         <div className={`ContactContainer ${toggle? "darkMode-Container": null}`}>
             <div className="imagePaper">
                 <h2>Entre em <br /> contato</h2>
-                <img src={planeGuy} alt="" />
+                <img src={Contact} alt="" />
             </div>
             <div className="Formulario">
                 <form action="" ref={form}>
