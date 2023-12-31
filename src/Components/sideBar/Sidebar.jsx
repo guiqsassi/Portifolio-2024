@@ -6,7 +6,7 @@ import home from "../../assets/Home.png"
 
 import sun from "../../assets/sun.png"
 // import LinkDark from "../../assets/LinkDarkMode.png"
-import laptopDark from "../../assets/LaptopDarkMode.png"
+import laptopDark from "../../assets/laptopDarkMode.png"
 import homeDark from "../../assets/HouseDarkMode.png"
 import { useDispatch } from "react-redux"
 import { useSelector } from "react-redux"
