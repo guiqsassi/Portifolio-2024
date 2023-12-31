@@ -8,7 +8,7 @@ import browser from "../../assets/Browser.png"
 
 import browserDarkMode from "../../assets/BrowserDarkMode.png"
 import heartDarkMode from "../../assets/HeartDarkMode.png"
-import githubDarkMode from "../../assets/GitHubDarkMode"
+import githubDarkMode from "../../assets/GitHubDarkMode.png"
 import shareDarkMode from "../../assets/shareDarkMode.png"
 
 
