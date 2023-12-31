@@ -1,14 +1,14 @@
 import "./ProjectContainer.css"
-import picture from "../../assets/picture.png"
+import picture from "../../assets/Picture.png"
 
 import heart from "../../assets/heart.png"
 import share from "../../assets/share.png"
 import github from "../../assets/GitHub_.png"
-import browser from "../../assets/browser.png"
+import browser from "../../assets/Browser.png"
 
-import browserDarkMode from "../../assets/browserDarkMode.png"
-import heartDarkMode from "../../assets/heartDarkMode.png"
-import githubDarkMode from "../../assets/githubDarkMode.png"
+import browserDarkMode from "../../assets/BrowserDarkMode.png"
+import heartDarkMode from "../../assets/HeartDarkMode.png"
+import githubDarkMode from "../../assets/GithubDarkMode.png"
 import shareDarkMode from "../../assets/shareDarkMode.png"
 
 
