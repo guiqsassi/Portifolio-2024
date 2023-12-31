@@ -33,23 +33,23 @@ form > .darkModeInput > .inputContainer{
     transition: border 1s ease;
 
 }
-form > .darkModeInput > .TextContainer > textarea, textarea::placeholder{
+form > .darkModeInput > .TextContainer > textarea{
     color: rgba(255, 255, 255, 0.753);
     transition: color 1s ease;
 
 }
 form > .darkModeInput > .TextContainer > textarea::placeholder{
-    color: rgba(255, 255, 255, 0.753);
+    color: rgba(255, 255, 255, 0.397);
     transition: color 1s ease;
 
 }
-form > .darkModeInput > .inputContainer > input, input::placeholder{
+form > .darkModeInput > .inputContainer > input{
     color: rgba(255, 255, 255, 0.753);
     transition: color 1s ease;
 
 }
 form > .darkModeInput > .inputContainer > input::placeholder{
-    color: rgba(255, 255, 255, 0.753);
+    color: rgba(255, 255, 255, 0.397);
     transition: color 1s ease;
 
 }

@@ -17,12 +17,11 @@ import { useState } from "react"
 import { useSelector } from "react-redux"
 
 const ProjectContainer = (props) => {
-
     const [copy, setCopyText] = useState("Copiar Link")
     const {toggle} = useSelector((state)=> state.darkModeReducer)
 
     const CopyToClipboard = ()=>{
-        navigator.clipboard.writeText("caraio gato")
+        navigator.clipboard.writeText(props.linkExec)
         setCopyText("Link Copiado")
         setTimeout( ()=>{
             setCopyText("Copiar Link")
@@ -49,15 +48,26 @@ const ProjectContainer = (props) => {
                 <>
                 
                 <img src={heartDarkMode} alt="" />
+                <a target="blank" href={props.linkExec}>
                 <img src={browserDarkMode} alt="" />
+
+                </a>
+                <a target="blank" href={props.linkGit}>
                 <img src={githubDarkMode} alt="" />
+                </a>
                 </>
 :   
                 <>
                 
                 <img src={heart} alt="" />
+                <a target="blank" href={props.linkExec}>
                 <img src={browser} alt="" />
+
+                </a>
+                <a target="blank" href={props.linkGit}>
                 <img src={github} alt="" />
+
+                </a>
                 </>
 }
 
@@ -76,6 +86,20 @@ const ProjectContainer = (props) => {
                 </div>
                 </div>
             </div>
+                {props.techs?
+            <div className="tags">
+
+{                props.techs.map((tech)=>{
+                 return(
+
+                  <div className="projectTag">
+                        <h5>{tech}</h5>
+                    </div>
+                 )
+                })}
+            
+            </div>
+            :null}
             <div className="description">
                 <p>{props.text}</p>
             </div>

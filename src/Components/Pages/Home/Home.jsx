@@ -13,6 +13,7 @@ import mySql from "../../../assets/mysql.png"
 import mongo from "../../../assets/mongo.png"
 import docker from "../../../assets/docker.png"
 import figma from "../../../assets/figma.png"
+import whatsapp from "../../../assets/whatsapp.png"
 import { useSelector } from "react-redux"
 
 import Tag from "../../Tag/Tags"
@@ -26,11 +27,14 @@ const Home = () => {
             <h1>Guilherme Q. Sassi</h1>
             <h2>Desenvolvedor Fullstack</h2>
             <div className="socialMedia">
-                <a href="">
+                <a href="https://www.linkedin.com/in/guiqsassi" target="blank">
                     <img src={linkeding} alt="" />
                 </a>
-                <a href="">
+                <a href="https://github.com/guiqsassi" target="blank">
                     <img src={github} alt="" />
+                </a>
+                <a href="https://w.app/jOSytJ" target="blank">
+                    <img src={whatsapp} alt="" />
                 </a>
             </div>
         </div>
