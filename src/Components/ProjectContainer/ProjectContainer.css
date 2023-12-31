@@ -80,7 +80,7 @@ line-height: normal;
 }
 .imagePrincipal >img{
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     image-rendering:auto;
     border-radius: 4px;
     transition: 1s;
@@ -93,6 +93,7 @@ line-height: normal;
     justify-content: center;
     border-radius: 50px;
     height: 20px;
+    min-width: 40px;
     background-color: rgb(43, 43, 43);
 }
 .tags{
@@ -136,9 +137,9 @@ line-height: normal;
 }
 .copyWidget{
    position: absolute;
-   top: -60px;
+   top: -70px;
    border: 1px solid #dadada;
-
+    
    left: -45px;
    width: 100px;
    padding: 3px;
@@ -147,6 +148,7 @@ line-height: normal;
    border-radius: 10px;
    opacity: 0;
    display: flex;
+
    align-items: center;
    justify-content: center;
 
@@ -173,7 +175,11 @@ line-height: normal;
 }
 .share >img:hover ~ .copyWidget{
     opacity: 1;
+    top: -60px;
+    transition: top 0.3s ease-in-out ;
+    
 }
+
 
 .description > p{
     color: rgba(0, 0, 0, 0.54);
@@ -183,4 +189,67 @@ font-style: normal;
 font-weight: 400;
 margin: 0;
 line-height: normal;
+}
+@media (max-width: 1400px) {
+    .ProjectContainer{
+        width: 430px;
+    }
+
+}
+@media (max-width: 1300px) {
+    .ProjectContainer{
+        width: 400px;
+    }
+
+}
+@media (max-width: 1250px) {
+    .ProjectContainer{
+        width: 350px;
+        min-height: 400px;
+        gap: 10px;
+    }
+
+}
+@media (max-width: 1170px) {
+    .ProjectContainer{
+        width: 330px;
+        min-height: 380px;
+        gap: 10px;
+    }
+
+}
+@media (max-width: 1070px) {
+    .ProjectContainer{
+        width: 310px;
+        min-height: 330px;
+        gap: 10px;
+    }
+
+}
+@media (max-width: 500px) {
+    .ProjectContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 0 20px 0;
+        border: 0px;
+        border-radius: 0;
+        align-items: center;
+        gap: 10px;
+    }
+    .ProjectHeader{
+        width: 95%;
+        
+    }
+    .widgets{
+        width: 95%;
+    }
+    .copyWidget{
+        display: none;
+    }
+    .tags{
+        width: 95%;
+    }
+    .description{
+        width: 95%;
+    }
 }

@@ -137,35 +137,166 @@ transition: color 1s;
     gap: 14px;
 
 }
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
     .home{
-        flex-direction: column;
         align-items: center;
 
     }
-    .about{
-        width: 70%;
-        
+    .about > p{
+        font-size: 14px;
     }
-    .profile{
-        margin-top: 5%;
+    .about >h1{
+        font-size: 21px;
+    }
+
+}
+@media (max-width: 1700px) {
+    .home{
+        align-items: center;
+
+    }
+    .about > p{
+        font-size: 15px;
+    }
+    .about >h1{
+        font-size: 21px;
+    }
+    .about > .tags > .Tag{
+        width: 110px;
+    }
+
+}
+@media (max-width: 1360px) {
+
+    .about > p{
+        font-size: 15px;
+    }
+    .about >h1{
+        font-size: 21px;
+    }
+
+    .about{
+        width: 50%;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
+
+    .about > p{
+        font-size: 14px;
+    }
+    .about >h1{
+        font-size: 20px;
+    }
+
+
+    
+}
+@media (max-width: 1250px) {
+    .about > p{
+        font-size: 14px;
+    }
+    .about >h1{
+        font-size: 20px;
+    }
+    .about > .tags > .Tag{
+        width: 110px;
+    }
+    .about{
+        width: 45%;
+    }
+    .profile{
+        width: 15%;
+    }
+
+}
+@media (max-width: 1120px) {
+    .about > p{
+        font-size: 13px;
+    }
+    .about >h1{
+        font-size: 18px;
+    }
+    .about > .tags > .Tag > h3{
+        margin: 0;
+        font-size: 11px;
+    }
+    .about > .tags > .Tag {
+       width: 100px;
+    }
+    .about{
+        width: 40%;
+    }
+    .profile{
+        min-width: 250px;
+    }   
+    .profile >img{
+        width: 45%;
+    }
+    .personalInfo > h1{
+        font-size: 25px;
+        margin-top: 10%;
+    }
+    .personalInfo > h2{
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 1050px) {
+    .about > .tags > .Tag > img{
+       width: 20px;
+    }
+    .about > .tags > .Tag {
+        width: 90px;
+        height: 20px;
+     }
+     .profile{
+        width: 15%;
+     }
+}
+@media (max-width: 930px) {
+    
     .about{
         width: 80%;
         
     }
-
+    #home{
+        flex-direction: column;
+    }
+    .profile{
+        margin-top: 20%;
+    }
+    .profile{
+        min-width: 300px;
+    }   
+    .profile >img{
+        width: 40%;
+    }
+    .personalInfo > h1{
+        font-size: 25px;
+        margin-top: 15%;
+    }
+    .personalInfo > h2{
+        font-size: 18px;
+    }
 }
 @media (max-width: 400px) {
     .about{
-        width: 90%;
+        padding: 20px 0 20px 0;
+        width: 99%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+    }
+    
+    .about > h1, p{
+        width: 95%;
+    }
+    .about>.tags{
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
         
     }
-    .tags{
-        justify-content: center;
-        align-items: center;
-    }
+    
 
 }
