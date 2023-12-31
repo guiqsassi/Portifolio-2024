@@ -1,8 +1,8 @@
 import "./Projects.css"
 import ProjectContainer from "../../ProjectContainer/ProjectContainer";
 import chihiro from "../../../assets/Chihiro.png"
-import pokeDb from "../../../assets/pokeDbPrint.png"
-import lorax from "../../../assets/lorax.png"
+import pokeDb from "../../../assets/PokeDbPrint.png"
+import lorax from "../../../assets/Lorax.png"
 import Calculator from "../../../assets/Calculator.png"
 import CasaVerde from "../../../assets/casa_verde.png"
 const Projects = () => {
