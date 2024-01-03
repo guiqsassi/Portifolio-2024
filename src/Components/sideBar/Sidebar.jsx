@@ -5,7 +5,7 @@ import laptop from "../../assets/Laptop.png"
 import home from "../../assets/Home.png"
 
 import sun from "../../assets/sun.png"
-import MailDark from "../../assets/MailDarkmode.png"
+import MailDark from "../../assets/MailDarkMode.png"
 import laptopDark from "../../assets/laptopDarkMode.png"
 import homeDark from "../../assets/HouseDarkMode.png"
 import { useDispatch } from "react-redux"
