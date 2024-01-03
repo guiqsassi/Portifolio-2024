@@ -38,7 +38,7 @@ const Contact = () => {
     }
     else{
         setNotificationError(true)
-        setErrorText("Insira todos os dados ccorretamente")
+        setErrorText("Insira todos os dados corretamente")
 
         setTimeout(()=>{setNotificationError(false)}, 7000);   
 
