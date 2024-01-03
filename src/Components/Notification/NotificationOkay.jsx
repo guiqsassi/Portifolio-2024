@@ -14,7 +14,7 @@ import {useState } from 'react';
     }
     return (
         <div className="notificationContainer" style={{transform: `translateX(${notification})`}}>
-            <h2>Ação realizada com sucesso 😸 </h2>
+            <h2>Email enviado com sucesso 😸 </h2>
         </div>
     )
   
