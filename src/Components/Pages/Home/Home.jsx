@@ -14,6 +14,7 @@ import mongo from "../../../assets/mongo.png"
 import docker from "../../../assets/docker.png"
 import figma from "../../../assets/figma.png"
 import whatsapp from "../../../assets/WhatsApp.png"
+import java from "../../../assets/java.png"
 import { useSelector } from "react-redux"
 
 import Tag from "../../Tag/Tags"
@@ -45,9 +46,10 @@ const Home = () => {
 Atualmente estou trabalhando em um projeto na comunidade Bichinhos da TI chamado “Aprender ensinando” e estou atuando como FrontEnd Developer voluntário.</p>
             <h1>Tecnologias:</h1>
             <div className="tags">
+                <Tag img={java} text={"java"} color="#2B3F6C"></Tag>
                 <Tag img={spring} text={"SpringBoot"} color="#77BC1F"></Tag>
-                <Tag img={nodejs} text={"Node.Js"}></Tag>
                 <Tag img={javascript} text={"Javascript"} color="rgba(0, 0, 0, 0.54)"></Tag>
+                <Tag img={nodejs} text={"Node.Js"}></Tag>
                 <Tag img={html} text={"Html"} color="rgba(241, 101, 41, 0.69)"></Tag>
                 <Tag img={css} text={"Css"} color="rgba(21, 114, 182, 0.79)"></Tag>
                 <Tag img={React} text={"React"} color="#23C2EE"></Tag>
