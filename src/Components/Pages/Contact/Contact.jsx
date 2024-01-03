@@ -8,6 +8,7 @@ import NotificationOkay from "../../Notification/NotificationOkay"
 import emailjs from '@emailjs/browser';
 import { useSelector } from "react-redux"
 
+
 const Contact = () => {
     const [notification, setNotification] = useState(false)
     const [notificationError, setNotificationError] = useState(false)
@@ -19,9 +20,10 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
+
       e.preventDefault();
       if(name !== "" && email!== ""&& message !== ""){
-      emailjs.sendForm('service_lvm729p', 'template_t3kglv6', form.current, 'yZIizqFPuunaW9Mpb')
+      emailjs.sendForm(import.meta.env.VITE_EMAIL_SERVICE, import.meta.env.VITE_EMAIL_TEMPLATE, form.current, import.meta.env.VITE_API_KEY)
         .then((result) => {
             console.log(result.text);
 
@@ -44,7 +46,7 @@ const Contact = () => {
 };
     return (
         <>
-                <section className="Contact">
+                <section id="Contact" className="Contact">
                 <NotificationError text={errorText} state={notificationError}></NotificationError>
             <NotificationOkay state={notification}></NotificationOkay>
         <div className={`ContactContainer ${toggle? "darkMode-Container": null}`}>

@@ -1,11 +1,11 @@
 import "./Sidebar.css"
 import moon from "../../assets/Moon.png"
-import link from "../../assets/Link.png"
+import mail from "../../assets/Mail.png"
 import laptop from "../../assets/Laptop.png"
 import home from "../../assets/Home.png"
 
 import sun from "../../assets/sun.png"
-import LinkDark from "../../assets/LinkDarkmode.png"
+import MailDark from "../../assets/MailDarkmode.png"
 import laptopDark from "../../assets/laptopDarkMode.png"
 import homeDark from "../../assets/HouseDarkMode.png"
 import { useDispatch } from "react-redux"
@@ -43,11 +43,11 @@ const Sidebar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#a">
+                        <a href="#Contact">
                         {toggle?
-                    <img src={LinkDark} alt="" />
+                    <img src={MailDark} alt="" />
                     :
-                    <img src={link} alt="" />
+                    <img src={mail} alt="" />
 
                     }
                         </a>
