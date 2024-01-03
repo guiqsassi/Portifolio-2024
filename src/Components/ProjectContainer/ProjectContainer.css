@@ -223,6 +223,13 @@ line-height: normal;
     }
 
 }
+@media (max-width: 870px ) {
+    .ProjectContainer{
+        width: 460px;
+        min-height: 480px;
+        gap: 10px;
+    }
+}
 @media (max-width: 500px) {
     .ProjectContainer{
         width: 100%;
