@@ -24,8 +24,7 @@
 
 }
 .about{
-    height: 54%;
-    /* height: auto; */
+    height: 300px;
     background-color: white;
 
     width: 53%;
@@ -154,6 +153,9 @@ transition: color 1s;
     .home{
         align-items: center;
 
+    }
+    .about{
+        height: auto;
     }
     .about > p{
         font-size: 15px;
