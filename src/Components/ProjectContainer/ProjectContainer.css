@@ -11,6 +11,7 @@
     z-index: 2;
     transition: background 1s, border 1s;
     gap: 10px;
+    position: relative;
 }
 .darkMode-Container{
     background-color: #232531;
@@ -137,7 +138,7 @@ line-height: normal;
    top: -70px;
    border: 1px solid #dadada;
     
-   left: -45px;
+   left: -70px;
    width: 100px;
    padding: 3px;
    height: 40px;
@@ -150,6 +151,64 @@ line-height: normal;
    justify-content: center;
 
 }
+.github{
+    position: relative;
+}
+.gitWidget{
+    position: absolute;
+    top: -70px;
+    border: 1px solid #dadada;
+     
+    width: 100px;
+    padding: 3px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 0;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+
+}
+.browserWidget{
+    position: absolute;
+    top: -70px;
+    border: 1px solid #dadada;
+     
+    width: 100px;
+    padding: 3px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 0;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+
+}
+.browser{
+    position: relative;
+}
+.gitWidget > h4{
+    font-family: Open Sans;
+    font-size: 12px;
+    text-align: center;
+    z-index: 10;
+
+    color: black;
+
+}
+.browserWidget > h4{
+    font-family: Open Sans;
+    font-size: 12px;
+    text-align: center;
+    z-index: 10;
+
+    color: black;
+
+}
 .copyWidget > h4{
     font-family: Open Sans;
     font-size: 12px;
@@ -159,18 +218,20 @@ line-height: normal;
     color: black;
 
 }
-.copyWidget::after{
-    width: 15px;
-    height: 15px;
-    bottom: -4px;
 
-    z-index: -1;    
-    background-color: #dadada;
-    position: absolute;
-    content: "";
-    transform: rotateZ(45deg);
-}
 .share >img:hover ~ .copyWidget{
+    opacity: 1;
+    top: -60px;
+    transition: top 0.3s ease-in-out ;
+    
+}
+.browser >a:hover ~ .browserWidget{
+    opacity: 1;
+    top: -60px;
+    transition: top 0.3s ease-in-out ;
+    
+}
+.github >a:hover ~ .gitWidget{
     opacity: 1;
     top: -60px;
     transition: top 0.3s ease-in-out ;
@@ -256,9 +317,7 @@ line-height: normal;
     .widgets{
         width: 90%;
     }
-    .copyWidget{
-        display: none;
-    }
+
     .webWidgets{
         gap: 14px;
     }

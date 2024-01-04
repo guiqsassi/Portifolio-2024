@@ -46,28 +46,49 @@ const ProjectContainer = (props) => {
                 <div className="webWidgets">
 {               toggle?
                 <>
-                
-                <img src={heartDarkMode} alt="" />
+
+                <div className="browser">
+
                 <a target="blank" href={props.linkExec}>
                 <img src={browserDarkMode} alt="" />
-
                 </a>
+                <div className="browserWidget">
+                    <h4>Visualizar execução</h4>
+                </div>
+
+                </div>
+                
+                <div className="github">
                 <a target="blank" href={props.linkGit}>
                 <img src={githubDarkMode} alt="" />
                 </a>
+                <div className="gitWidget">
+                    <h4>Visualizar github</h4>
+                </div>
+                </div>
+
                 </>
 :   
                 <>
                 
-                <img src={heart} alt="" />
+                <div className="browser">
+
                 <a target="blank" href={props.linkExec}>
                 <img src={browser} alt="" />
-
                 </a>
+                <div className="browserWidget">
+                    <h4>Visualizar execução</h4>
+                </div>
+                
+                </div>
+                <div className="github">
                 <a target="blank" href={props.linkGit}>
                 <img src={github} alt="" />
-
                 </a>
+                <div className="gitWidget">
+                    <h4>Visualizar github</h4>
+                </div>
+                </div>
                 </>
 }
 
