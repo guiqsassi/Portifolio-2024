@@ -34,7 +34,7 @@ const Home = () => {
                 <a href="https://github.com/guiqsassi" target="blank">
                     <img src={github} alt="" />
                 </a>
-                <a href="https://w.app/jOSytJ" target="blank">
+                <a href="https://api.whatsapp.com/send?phone=55554899108&text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20portfolio" target="blank">
                     <img src={whatsapp} alt="" />
                 </a>
             </div>
