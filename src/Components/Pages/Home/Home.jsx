@@ -15,6 +15,7 @@ import docker from "../../../assets/docker.png"
 import figma from "../../../assets/figma.png"
 import whatsapp from "../../../assets/WhatsApp.png"
 import java from "../../../assets/java.png"
+import styledCompo from "../../../assets/styledComponents.png"
 import { useSelector } from "react-redux"
 
 import Tag from "../../Tag/Tags"
@@ -53,6 +54,7 @@ Atualmente estou trabalhando em um projeto na comunidade Bichinhos da TI chamado
                 <Tag img={html} text={"Html"} color="rgba(241, 101, 41, 0.69)"></Tag>
                 <Tag img={css} text={"Css"} color="rgba(21, 114, 182, 0.79)"></Tag>
                 <Tag img={React} text={"React"} color="#23C2EE"></Tag>
+                <Tag img={styledCompo} text={"SC"} color="#C66767"></Tag>
                 <Tag img={git} text={"Git"} color="rgba(241, 101, 41, 0.69)"></Tag>
                 <Tag img={mySql} text={"mySql"} color="#1486DA"></Tag>
                 <Tag img={mongo} text={"MongoDb"} color="#57AE47"></Tag>

@@ -87,7 +87,8 @@ line-height: normal;
     height: 282px;
 }
 .projectTag{
-    width: 10%;
+    width: auto;
+    padding: 0px 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,11 +97,12 @@ line-height: normal;
     min-width: 40px;
     background-color: rgb(43, 43, 43);
 }
-.tags{
-    width: 100%;
+.ProjectContainer> .tags{
+    width: auto;
     height: auto;
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 .projectTag > h5{
     margin: 0;

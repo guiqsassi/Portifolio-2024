@@ -10,7 +10,7 @@
 .profile{
     width: 18%;
     min-width: 300px;
-    height: 340px;
+    height: 370px;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -24,7 +24,7 @@
 
 }
 .about{
-    height: 300px;
+    height: 330px;
     background-color: white;
 
     width: 53%;

@@ -5,6 +5,7 @@ import pokeDb from "../../../assets/PokeDbPrint.png"
 import lorax from "../../../assets/Lorax.png"
 import Calculator from "../../../assets/Calculator.png"
 import CasaVerde from "../../../assets/casa_verde.png"
+import xbox from "../../../assets/Xbox.png"
 const Projects = () => {
     return ( 
         <section id="Projects">
@@ -14,6 +15,7 @@ const Projects = () => {
             <ProjectContainer techs={["React", "Html", "Css"]} linkExec="https://7-days-alura-day1-gz1sx0hvq-guiqsassi.vercel.app/" linkGit="https://github.com/guiqsassi/7DaysAlura-day1.git" date="09/08/2023" text="Este projeto é uma landing page criada a partir de um projeto figma durante o desafio 7 days of code da alura" image={CasaVerde}></ProjectContainer>
             <ProjectContainer techs={["React", "Html", "Css"]} date="28/06/2023" linkGit="https://github.com/guiqsassi/Pokedex" linkExec={"https://pokedb-six.vercel.app/"} image={pokeDb} text="Projeto realizado utilizando a api de pokedex"></ProjectContainer>
             <ProjectContainer techs={["React", "Html", "Css"]} date="23/05/2023" linkGit="https://github.com/guiqsassi/Calculator" linkExec={"https://calculator-swart-nine.vercel.app/"} image={Calculator} text="Este projeto é uma Calculadora feita em React"></ProjectContainer>
+            <ProjectContainer techs={["React", "Html", "Css", "StyledComponents"]} date="09/01/2024" linkGit="https://github.com/guiqsassi/XboxSeries-S" linkExec={"https://xbox-series-s.vercel.app/"} image={xbox} text="Este projeto é uma landing page criada a partir de um figma da Codelândia"></ProjectContainer>
             </div>
         </section>
      );
