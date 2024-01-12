@@ -67,7 +67,7 @@ Atualmente estou trabalhando em um projeto na comunidade Bichinhos da TI chamado
                 <Tag img={React} text={"React"} color="#1397BC"></Tag>
                 <Tag img={styledCompo} text={"SC"} color="#C66767"></Tag>
                 <Tag img={git} text={"Git"} color="rgba(241, 101, 41, 0.69)"></Tag>
-                <Tag img={mySql} text={"mySql"} color="#1486DA"></Tag>
+                <Tag img={mySql} text={"mySql"} color="#65BCFC"></Tag>
                 <Tag img={mongo} text={"MongoDb"} color="#33612B"></Tag>
                 <Tag img={docker} text={"Docker"} color="#00ACD3"></Tag>
                 <Tag img={figma} text={"Figma"} color="#606060"></Tag>
