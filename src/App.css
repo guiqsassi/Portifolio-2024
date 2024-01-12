@@ -7,9 +7,17 @@
   padding: 0;
   transition: background 1s;
   position: absolute;
-
+  
 }
 .App-darkMode{
   background-color: #1B1D25;
   transition: background 1s;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #8b8b8b;
+  border-radius: 100px;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #1B1D25;
 }

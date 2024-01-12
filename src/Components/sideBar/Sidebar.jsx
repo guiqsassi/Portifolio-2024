@@ -55,6 +55,7 @@ const Sidebar = () => {
                     <li>
                         <a onClick={handleClick}>
                     {
+
                         toggle?
                         <img src={sun} alt="" />
 
