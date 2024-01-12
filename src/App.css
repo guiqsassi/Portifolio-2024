@@ -14,10 +14,10 @@
   transition: background 1s;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #8b8b8b;
+  background-color: #d1d1d1;
   border-radius: 100px;
 }
 ::-webkit-scrollbar{
   width: 10px;
-  background-color: #1B1D25;
+  background-color: #666666;
 }
