@@ -60,7 +60,7 @@ Atualmente estou trabalhando em um projeto na comunidade Bichinhos da TI chamado
             <div className="tags">
                 <Tag img={java} text={"java"} color="#CD1515"></Tag>
                 <Tag img={spring} text={"SpringBoot"} color="#77BC1F"></Tag>
-                <Tag img={javascript} text={"Javascript"} color="#F0DA45"></Tag>
+                <Tag img={javascript} text={"Javascript"} color="#FFB800"></Tag>
                 <Tag img={nodejs} text={"Node.Js"}></Tag>
                 <Tag img={html} text={"Html"} color="rgba(241, 101, 41, 0.69)"></Tag>
                 <Tag img={css} text={"Css"} color="#439BDB"></Tag>
