@@ -98,7 +98,7 @@ line-height: normal;
     background-color: rgb(43, 43, 43);
 }
 .ProjectContainer> .tags{
-    width: auto;
+    width: 90%;
     height: auto;
     display: flex;
     align-items: center;
